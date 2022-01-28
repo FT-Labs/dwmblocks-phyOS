@@ -17,7 +17,7 @@ md5sums=('SKIP')
 build() {
 	cd "$pkgname"
 	mkdir -p "$HOME/.local/.phycache/dwmblocks"
-	yes | cp PKGBUILD $HOME/.local/.phycache/dwmblocks
+	yes | cp -f PKGBUILD $HOME/.local/.phycache/dwmblocks
 	[ -f $HOME/.config/phyos/dwmbconfig.h ] && yes | cp -f $HOME/.config/phyos/dwmbconfig.h ./config.h
 	make
 }
