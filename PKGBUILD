@@ -11,7 +11,7 @@ optdepends=('dwm')
 provides=("dwmblocks")
 conflicts=("dwmblocks")
 options=('zipman')
-source=('git://github.com/PhyTech-R0/dwmblocks-phyOS')
+source=('git+https://github.com/PhyTech-R0/dwmblocks-phyOS')
 md5sums=('SKIP')
 
 build() {
