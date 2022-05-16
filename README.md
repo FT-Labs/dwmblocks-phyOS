@@ -1,3 +1,5 @@
+## !! THIS IS DEPRECATED. DWMBLOCKS IS MERGED INTO phyOS-dwm, please check that
+
 ### Status bar for dwm-phyOS
 
  - Installation for arch users
